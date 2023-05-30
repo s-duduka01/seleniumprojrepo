@@ -11,6 +11,7 @@ public class ThreeTest extends Base{
 	 public WebDriver driver;
 	@Test
 	public void threeTest() throws IOException, InterruptedException {
+		System.out.println("sduduka has updated the code");
 		System.out.println("ThreeTest");
 		driver= intializeDriver();
 		driver.get("https://tutorialsninja.com/demo/");
